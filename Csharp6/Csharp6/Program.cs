@@ -1,4 +1,5 @@
-﻿using Csharp6.Aula1;
+﻿using Csharp6.Aula02;
+using Csharp6.Aula1;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +15,9 @@ namespace csharp_atualizacoes
             string[] menus = new string[] {
                 "1. Propriedades Automáticas Somente-Leitura",
                 "2. Inicializadores De Propriedade Automática",
-                "3. Membros Com Corpo De Expressão"
+                "3. Membros Com Corpo De Expressão",
+                "4. Using Static",
+                "5. Oparadores Null-Condicionais"
             };
 
             Console.WriteLine("ÍNDICE DE PROGRAMAS");
@@ -45,6 +48,12 @@ namespace csharp_atualizacoes
                         break;
                     case 3:
                         new Exercicio03().Imprimir();
+                        break;
+                    case 4:
+                        new Exercicio04().Imprimir();
+                        break;
+                    case 5:
+                        new Exercicio05().Imprimir();
                         break;
                     default:
                         break;

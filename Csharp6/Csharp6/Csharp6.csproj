@@ -42,9 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Aula1\Exercicio01.cs" />
-    <Compile Include="Aula1\Exercicio02.cs" />
-    <Compile Include="Aula1\Exercicio03.cs" />
+    <Compile Include="Aula01\Exercicio01.cs" />
+    <Compile Include="Aula01\Exercicio02.cs" />
+    <Compile Include="Aula01\Exercicio03.cs" />
+    <Compile Include="Aula02\Exercicio04.cs" />
+    <Compile Include="Aula02\Exercicio05.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
