@@ -1,4 +1,5 @@
 ﻿using Csharp6.Aula02;
+using Csharp6.Aula03;
 using Csharp6.Aula1;
 using System;
 using System.Collections.Generic;
@@ -17,7 +18,9 @@ namespace csharp_atualizacoes
                 "2. Inicializadores De Propriedade Automática",
                 "3. Membros Com Corpo De Expressão",
                 "4. Using Static",
-                "5. Oparadores Null-Condicionais"
+                "5. Oparadores Null-Condicionais",
+                "6 . Interpolação De Cadeia De Caracteres",
+                "7. Expressões nameOf"
             };
 
             Console.WriteLine("ÍNDICE DE PROGRAMAS");
@@ -54,6 +57,12 @@ namespace csharp_atualizacoes
                         break;
                     case 5:
                         new Exercicio05().Imprimir();
+                        break;
+                    case 6:
+                        new Exercicio06().Imprimir();
+                        break;
+                    case 7:
+                        new Exercicio07().Imprimir();
                         break;
                     default:
                         break;
