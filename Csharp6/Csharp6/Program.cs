@@ -1,6 +1,7 @@
 ﻿using Csharp6.Aula02;
 using Csharp6.Aula03;
 using Csharp6.Aula04;
+using Csharp6.Aula05;
 using Csharp6.Aula1;
 using System;
 using System.Collections.Generic;
@@ -23,7 +24,9 @@ namespace csharp_atualizacoes
                 "6 . Interpolação De Cadeia De Caracteres",
                 "7. Expressões nameOf",
                 "8. Filtros de Exceção",
-                "9. Await Em Blocos Catch e Finally"
+                "9. Await Em Blocos Catch e Finally",
+                "10. Inicializadores De Índice",
+                "11. Métodos De Extensão Para Inicializadores De Coleção"
             };
 
             Console.WriteLine("ÍNDICE DE PROGRAMAS");
@@ -72,6 +75,12 @@ namespace csharp_atualizacoes
                     case 9:
                         new Exercicio09().Imprimir();
                         break;
+                    case 10:
+                        new Exercicio10().Imprimir();
+                        break;
+                    case 11:
+                        new Exercicio11().Imprimir();
+                        break;
                     default:
                         break;
                 }
@@ -83,4 +92,6 @@ namespace csharp_atualizacoes
             } while (line.Length > 0);
         }
     }
+
+   
 }

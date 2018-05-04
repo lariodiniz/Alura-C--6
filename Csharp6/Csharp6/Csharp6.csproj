@@ -51,6 +51,8 @@
     <Compile Include="Aula03\Exercicio06.cs" />
     <Compile Include="Aula04\Exercicio09 .cs" />
     <Compile Include="Aula04\Exercicio08.cs" />
+    <Compile Include="Aula05\Exercicio11.cs" />
+    <Compile Include="Aula05\Exercicio10 .cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
