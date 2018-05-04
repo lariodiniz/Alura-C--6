@@ -49,6 +49,8 @@
     <Compile Include="Aula02\Exercicio05.cs" />
     <Compile Include="Aula03\Exercicio07.cs" />
     <Compile Include="Aula03\Exercicio06.cs" />
+    <Compile Include="Aula04\Exercicio09 .cs" />
+    <Compile Include="Aula04\Exercicio08.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

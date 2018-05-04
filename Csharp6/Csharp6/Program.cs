@@ -1,5 +1,6 @@
 ﻿using Csharp6.Aula02;
 using Csharp6.Aula03;
+using Csharp6.Aula04;
 using Csharp6.Aula1;
 using System;
 using System.Collections.Generic;
@@ -20,12 +21,13 @@ namespace csharp_atualizacoes
                 "4. Using Static",
                 "5. Oparadores Null-Condicionais",
                 "6 . Interpolação De Cadeia De Caracteres",
-                "7. Expressões nameOf"
+                "7. Expressões nameOf",
+                "8. Filtros de Exceção",
+                "9. Await Em Blocos Catch e Finally"
             };
 
             Console.WriteLine("ÍNDICE DE PROGRAMAS");
             Console.WriteLine("===================");
-
 
             int programa = 0;
             string line;
@@ -63,6 +65,12 @@ namespace csharp_atualizacoes
                         break;
                     case 7:
                         new Exercicio07().Imprimir();
+                        break;
+                    case 8:
+                        new Exercicio08().Imprimir();
+                        break;
+                    case 9:
+                        new Exercicio09().Imprimir();
                         break;
                     default:
                         break;
